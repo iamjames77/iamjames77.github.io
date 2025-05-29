@@ -84,6 +84,13 @@ ninja.data = [{
           
         },
       },{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/msh1217", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
