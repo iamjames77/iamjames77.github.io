@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: 일상다반사 # the website title (if blank, full name will be used instead)
-first_name: Su Hong
+first_name: Suhong
 middle_name: # the middle name (if blank, it will not be displayed)
 last_name: Min
-contact_note: >
-  e-mail: alstnghd77@gmail.com
+#contact_note: >
+  #e-mail: alstnghd77@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Efficient AI, AI HW 가속기를 연구하는 개발자
+  민수홍의 일상다반사 블로그
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: 일상다반사 # blog_name will be displayed in your blog page
+blog_description: 민수홍의 일상다반사 블로그
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -122,12 +122,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -148,7 +142,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
     output: true
 
@@ -255,16 +249,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["pruning", 'quantization'] # these tags will be displayed on the front page of your blog
+display_categories: ["Efficient-AI"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Min]
+  first_name: [Su Hong]
 
   style: apa
   locale: en
@@ -290,10 +284,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -335,7 +329,7 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
+  enabled: true # enables external links attributes
   rel: external nofollow noopener
   target: _blank
   exclude:
