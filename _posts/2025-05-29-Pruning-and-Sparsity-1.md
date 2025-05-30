@@ -98,6 +98,10 @@ Conv layer에는 총 4개의 차원이 존재한다
 - Matrix가 단순히 작아졌기 때문에 속도에 직접적인 영향을 미침
 - 압축 비율이 적다
 
+<img src="/assets/img/Pruning-and-Sparsity-1/image-14.png" width="70%">
+
+- 채널 별로 압축률을 조정하는 것이 성능이 더 좋다.
+
 # Pruning Criterion
 
 ## Selection of Synapses to Prune
