@@ -29,7 +29,7 @@ Computing's Energy Problem (and What We Can Do About it) [Horowitz, M., IEEE ISS
 
 $\text{arg min}_{W_p} L(x; W_p)$
 
-$\text{subject to}$ $\quad$ $||W_p||_0 ≤ N$
+$\text{subject to}\|\|W_p\|\|_0 ≤ N$
 
 $W_p$에서 0이 아닌 값의 개수를 N개 이하의 조건에서 Loss를 최소화 하는 것 → 모델의 N개의 weight만 남기도록 희소화 하는 것이 목표
 
@@ -112,17 +112,17 @@ Conv layer에는 총 4개의 차원이 존재한다
 
 1. element-wise pruning
     
-    $Importance = |W|$
+    $Importance = \|W\|$
     
     <img src="/assets/img/Pruning-and-Sparsity-1/image-9.png" width="70%">
     
 2. row-wise pruning
     
-    $Importance = \sum_{i \in S}|w|$ - l1 norm
+    $Importance = \sum_{i \in S}\|w\| \quad$ l1 norm
     
     <img src="/assets/img/Pruning-and-Sparsity-1/image-10.png" width="70%">
     
-    $Importance = \sqrt{\sum_{i \in S}|w|^2}$ - l2 norm
+    $Importance = \sqrt{\sum_{i \in S}\|w\|^2} \quad$ l2 norm
     
     <img src="/assets/img/Pruning-and-Sparsity-1/image-11.png" width="70%">
     
