@@ -52,6 +52,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/What-is-Pruning/";
           
         },
+      },{id: "post-pruning-with-fine-tuning",
+        
+          title: "Pruning with Fine-tuning",
+        
+        description: "Pruning with Fine-tuning을 다루는 글입니다. 본 글은 MT Tiny ML and Efficiency Deep Learning Computing Lecture를 듣고 작성하였습니다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Pruning-with-Fine-tuning/";
+          
+        },
       },{id: "post-pruning-granularity",
         
           title: "Pruning Granularity",
