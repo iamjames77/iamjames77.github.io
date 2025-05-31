@@ -29,7 +29,7 @@ Computing's Energy Problem (and What We Can Do About it) [Horowitz, M., IEEE ISS
 
 $\text{arg min}_{W_p} L(x; W_p)$
 
-$\text{subject to}\quad ||W_p||_0 ≤ N$
+$\text{subject to}$ $\quad$ $||W_p||_0 ≤ N$
 
 $W_p$에서 0이 아닌 값의 개수를 N개 이하의 조건에서 Loss를 최소화 하는 것 → 모델의 N개의 weight만 남기도록 희소화 하는 것이 목표
 
