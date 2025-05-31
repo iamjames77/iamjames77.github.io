@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-what-is-pruning",
+        },{id: "post-pruning-ratio",
+        
+          title: "Pruning Ratio",
+        
+        description: "Pruning Ratio를 다루는 글입니다. 본 글은 MT Tiny ML and Efficiency Deep Learning Computing Lecture를 듣고 작성하였습니다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Pruning-Ratio/";
+          
+        },
+      },{id: "post-what-is-pruning",
         
           title: "What is Pruning",
         
