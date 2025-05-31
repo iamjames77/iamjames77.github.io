@@ -30,15 +30,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-pruning-and-sparsity-1",
+        },{id: "post-what-is-pruning",
         
-          title: "Pruning and Sparsity 1",
+          title: "What is Pruning",
         
-        description: "신경망에서 중요하지 않은 weight나 뉴런을 다양한 기준(크기, 출력, 손실 변화 등)에 따라 제거하여 모델을 작고 효율적으로 만드는 기법인 Pruning을 정리한 자료입니다.",
+        description: "Pruning의 개요를 다루는 글입니다. 본 글은 MT Tiny ML and Efficiency Deep Learning Computing Lecture를 듣고 작성하였습니다.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Pruning-and-Sparsity-1/";
+            window.location.href = "/blog/2025/What-is-Pruning/";
+          
+        },
+      },{id: "post-pruning-granularity",
+        
+          title: "Pruning Granularity",
+        
+        description: "Pruning Granularity를 다루는 글입니다. 본 글은 MT Tiny ML and Efficiency Deep Learning Computing Lecture를 듣고 작성하였습니다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Pruning-Granularity/";
+          
+        },
+      },{id: "post-pruning-criterion",
+        
+          title: "Pruning Criterion",
+        
+        description: "Pruning Criterion을 다루는 글입니다. 본 글은 MT Tiny ML and Efficiency Deep Learning Computing Lecture를 듣고 작성하였습니다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Pruning-Criterion/";
           
         },
       },{
