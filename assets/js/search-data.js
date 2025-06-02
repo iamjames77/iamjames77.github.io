@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-pruning-ratio",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-06-01-EIE/";
+          
+        },
+      },{id: "post-pruning-ratio",
         
           title: "Pruning Ratio",
         
