@@ -3,8 +3,8 @@ layout: post
 title: Efficient Streaming Language Models with Attention Sinks
 date: 2025-06-05 15:30:00
 description: Efficient Streaming Language Models with Attention Sinks을 읽고 논문을 정리한 글입니다.
-tags: context length, Attention
-categories: Efficient-AI, Paper-Review
+tags: context-length Attention
+categories: Efficient-AI Paper-Review
 ---
 
 # Introduction
