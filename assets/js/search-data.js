@@ -30,15 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-",
+        },{id: "post-efficient-streaming-language-models-with-attention-sinks",
         
-          title: "",
+          title: "Efficient Streaming Language Models with Attention Sinks",
         
-        description: "",
+        description: "Efficient Streaming Language Models with Attention Sinks을 읽고 논문을 정리한 글입니다.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-06-01-EIE/";
+            window.location.href = "/blog/2025/Efficient-Streaming-Language-Models-with-Attention-Sinks/";
+          
+        },
+      },{id: "post-eie-efficient-inference-engine-on-compressed-deep-neural-network",
+        
+          title: "EIE-Efficient Inference Engine on Compressed Deep Neural Network",
+        
+        description: "EIE-Efficient Inference Engine on Compressed Deep Neural Network을 읽고 논문을 정리한 글입니다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/EIE/";
           
         },
       },{id: "post-pruning-ratio",
